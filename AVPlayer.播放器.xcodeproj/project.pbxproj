@@ -15,6 +15,13 @@
 		0444F2E81CFDB2EE003897BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0444F2E61CFDB2EE003897BB /* LaunchScreen.storyboard */; };
 		0444F2F31CFDB2EE003897BB /* AVPlayer____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444F2F21CFDB2EE003897BB /* AVPlayer____Tests.m */; };
 		0444F2FE1CFDB2EE003897BB /* AVPlayer____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444F2FD1CFDB2EE003897BB /* AVPlayer____UITests.m */; };
+		0444F30D1CFDB60E003897BB /* CJPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444F30C1CFDB60E003897BB /* CJPlayer.m */; };
+		0444F3151CFDB6B9003897BB /* 梁静茹-偶阵雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0444F30F1CFDB6B9003897BB /* 梁静茹-偶阵雨.mp3 */; };
+		0444F3161CFDB6B9003897BB /* 林俊杰-背对背拥抱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0444F3101CFDB6B9003897BB /* 林俊杰-背对背拥抱.mp3 */; };
+		0444F3171CFDB6B9003897BB /* 情非得已.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0444F3111CFDB6B9003897BB /* 情非得已.mp3 */; };
+		0444F3181CFDB6B9003897BB /* 梁静茹-偶阵雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0444F3121CFDB6B9003897BB /* 梁静茹-偶阵雨.lrc */; };
+		0444F3191CFDB6B9003897BB /* 林俊杰-背对背拥抱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0444F3131CFDB6B9003897BB /* 林俊杰-背对背拥抱.lrc */; };
+		0444F31A1CFDB6B9003897BB /* 情非得已.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0444F3141CFDB6B9003897BB /* 情非得已.lrc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,14 @@
 		0444F2F91CFDB2EE003897BB /* AVPlayer.播放器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVPlayer.播放器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0444F2FD1CFDB2EE003897BB /* AVPlayer____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVPlayer____UITests.m"; sourceTree = "<group>"; };
 		0444F2FF1CFDB2EE003897BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0444F30B1CFDB60E003897BB /* CJPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJPlayer.h; sourceTree = "<group>"; };
+		0444F30C1CFDB60E003897BB /* CJPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJPlayer.m; sourceTree = "<group>"; };
+		0444F30F1CFDB6B9003897BB /* 梁静茹-偶阵雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "梁静茹-偶阵雨.mp3"; sourceTree = "<group>"; };
+		0444F3101CFDB6B9003897BB /* 林俊杰-背对背拥抱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰-背对背拥抱.mp3"; sourceTree = "<group>"; };
+		0444F3111CFDB6B9003897BB /* 情非得已.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "情非得已.mp3"; sourceTree = "<group>"; };
+		0444F3121CFDB6B9003897BB /* 梁静茹-偶阵雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "梁静茹-偶阵雨.lrc"; sourceTree = "<group>"; };
+		0444F3131CFDB6B9003897BB /* 林俊杰-背对背拥抱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "林俊杰-背对背拥抱.lrc"; sourceTree = "<group>"; };
+		0444F3141CFDB6B9003897BB /* 情非得已.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "情非得已.lrc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		0444F2D71CFDB2ED003897BB /* AVPlayer.播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				0444F30E1CFDB6A9003897BB /* music */,
 				0444F2DB1CFDB2ED003897BB /* AppDelegate.h */,
 				0444F2DC1CFDB2ED003897BB /* AppDelegate.m */,
 				0444F2DE1CFDB2ED003897BB /* ViewController.h */,
@@ -110,6 +126,8 @@
 				0444F2E61CFDB2EE003897BB /* LaunchScreen.storyboard */,
 				0444F2E91CFDB2EE003897BB /* Info.plist */,
 				0444F2D81CFDB2ED003897BB /* Supporting Files */,
+				0444F30B1CFDB60E003897BB /* CJPlayer.h */,
+				0444F30C1CFDB60E003897BB /* CJPlayer.m */,
 			);
 			path = "AVPlayer.播放器";
 			sourceTree = "<group>";
@@ -138,6 +156,19 @@
 				0444F2FF1CFDB2EE003897BB /* Info.plist */,
 			);
 			path = "AVPlayer.播放器UITests";
+			sourceTree = "<group>";
+		};
+		0444F30E1CFDB6A9003897BB /* music */ = {
+			isa = PBXGroup;
+			children = (
+				0444F30F1CFDB6B9003897BB /* 梁静茹-偶阵雨.mp3 */,
+				0444F3101CFDB6B9003897BB /* 林俊杰-背对背拥抱.mp3 */,
+				0444F3111CFDB6B9003897BB /* 情非得已.mp3 */,
+				0444F3121CFDB6B9003897BB /* 梁静茹-偶阵雨.lrc */,
+				0444F3131CFDB6B9003897BB /* 林俊杰-背对背拥抱.lrc */,
+				0444F3141CFDB6B9003897BB /* 情非得已.lrc */,
+			);
+			name = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +274,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0444F3151CFDB6B9003897BB /* 梁静茹-偶阵雨.mp3 in Resources */,
+				0444F3191CFDB6B9003897BB /* 林俊杰-背对背拥抱.lrc in Resources */,
 				0444F2E81CFDB2EE003897BB /* LaunchScreen.storyboard in Resources */,
 				0444F2E51CFDB2EE003897BB /* Assets.xcassets in Resources */,
+				0444F31A1CFDB6B9003897BB /* 情非得已.lrc in Resources */,
+				0444F3161CFDB6B9003897BB /* 林俊杰-背对背拥抱.mp3 in Resources */,
+				0444F3171CFDB6B9003897BB /* 情非得已.mp3 in Resources */,
 				0444F2E31CFDB2ED003897BB /* Main.storyboard in Resources */,
+				0444F3181CFDB6B9003897BB /* 梁静茹-偶阵雨.lrc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +310,7 @@
 				0444F2E01CFDB2ED003897BB /* ViewController.m in Sources */,
 				0444F2DD1CFDB2ED003897BB /* AppDelegate.m in Sources */,
 				0444F2DA1CFDB2ED003897BB /* main.m in Sources */,
+				0444F30D1CFDB60E003897BB /* CJPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
